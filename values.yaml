@@ -1,0 +1,11 @@
+serviceMonitor:
+  name: fastapi-service-monitor
+  labels:
+    app: fastapi
+  namespaceSelector:
+    matchNames:
+      - default
+  endpoints:
+    - port: fastapi
+      interval: 30s
+      path: /metrics
