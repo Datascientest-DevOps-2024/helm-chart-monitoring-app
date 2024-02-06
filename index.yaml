@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  fastapi-helm:
+  - apiVersion: v2
+    created: "2024-02-06T16:58:03.872468+01:00"
+    description: A Helm chart for Kubernetes to monitor a FastAPI application
+    digest: 88c4925e793091186b3c4b660fd5dfe2b79c412c1b79e964994cc386ae766706
+    name: fastapi-helm
+    urls:
+    - fastapi-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-06T16:58:03.86971+01:00"
